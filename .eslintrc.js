@@ -9,6 +9,7 @@ module.exports = {
     "standard",
     "plugin:prettier/recommended",
     "plugin:node/recommended",
+    "prettier"
   ],
   parserOptions: {
     ecmaVersion: 12,
@@ -28,3 +29,26 @@ module.exports = {
     },
   ],
 };
+
+
+// {
+//   "extends": [
+//     "next",
+//     "prettier"
+//   ],
+//   "plugins": [
+//     "prettier"
+//   ],
+//   "rules": {
+//     "prettier/prettier": [
+//       "error",
+//       {
+//         "printWidth": 80,
+//         "singleQuote": false,
+//         "trailingComma": "es5",
+//         "semi": false,
+//         "tabWidth": 2
+//       }
+//     ]
+//   }
+// }
